@@ -37,7 +37,8 @@
     "script:module-fixup": "node scripts/module-fixup.js",
     "script:copy-interface-doc": "node scripts/copy-interface-documentation.js",
     "script:add-deno-type-references": "node scripts/add-deno-type-references.js",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build"
   },
   "author": "Sami Koskimäki <sami@jakso.me>",
   "license": "MIT",
